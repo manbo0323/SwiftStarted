@@ -110,3 +110,18 @@ print(number3!)
 var number4: Int?
 // 仍然要使用的話 下面這行則會報錯誤
 // print(number4!)
+
+// 可選型別
+let oneString: String? = "Good morning ."
+// 需要驚嘆號來取值
+let anotherString: String = oneString!
+print(anotherString)
+
+// 如果改成隱式解析可選型別
+let twoString: String! = "Good night ."
+// 則可以直接使用 不用加上驚嘆號
+let finalString: String = twoString
+print(finalString)
+var threeString: String? = nil
+threeString = "hey"
+print(threeString!)
