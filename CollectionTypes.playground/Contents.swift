@@ -186,7 +186,6 @@ print(subtractSet2)
 let houseAnimals: Set = ["狗", "貓"]
 let farmAnimals: Set = ["牛", "雞", "羊", "狗", "貓"]
 let cityAnimals: Set = ["鳥", "鼠"]
-
 print(houseAnimals.isSubset(of: farmAnimals))
 // 返回 true 因為 farmAnimals 包含 houseAnimals 內所有的值
 
